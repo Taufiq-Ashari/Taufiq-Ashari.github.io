@@ -1,44 +1,126 @@
+body{
+    background-color: #FAFAFA;
+}
+.kotak_atas{
+            position: absolute;
+            background-color: #ffffff;
+            width: 100%;
+            height: 56px;
+            left: 0px;
+            top: 0px;
+}
+.portofolio{
+        position: absolute;
+        width: 177px;
+        height: 29px;
+        left: 61px;
+        top: 90px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+}
+.nama_orga{
+        position: relative;
+         width: 162px;
+        height: 24px;
+        left: 45px;
+        top: 20px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        color: #000000;
+}
+.n{
+            top: 20px;
+            margin-left: 100px;
+}
+.kotak_sumit{
+    position:relative;
+    left: 30px;
+    box-sizing: border-box;
+    height: 40px;
+    text-align: center;
+        background: #F4F4F4;
+        border: 1px solid #DEDEDE;
+        border-radius: 7px;
+        top: 10;
+}
+.k{
+    width: 200px;
+    margin-left: 0px;
+}
+.o {
+    width: 85px;
+    margin-left: 20px;
+}
+.t {
+    width: 85px;
+    margin-left: 10px;
+}
+
+.kotak_luar{
+        position: absolute;
+        width: 460px;
+        height: 108px;
+        left: 21px;
+        top: 149px;
+        background: #FFFFFF;
+            box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
+            border-radius: 15px;
+}
+
+
 
 .masok {
-    width: 101px;
-    height: 35px;
-
-    background: #29e7cd;
-    border-color: #ffff;
-
-    font-family: 'arial';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 24px;
-        line-height: 29px;
+    position: relative;
+    left: 280px;
+        width: 101px;
+        height: 35px;
+        border-color: #ffff;
+        font-family: 'Inter';
+        font-size: 16px;
+        line-height: 19px;
         color: #FFFFFF;
-
-
+        box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
+        border-radius: 9px;
+        top: -40px;
 }
-.masok1 {
-    width: 101px;
-    height: 35px;
+.satu  {
 
-    background: #FFBA08;
-    border-color: #ffff;
-    font-family: 'arial';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
+            background: #E89C58;
+            margin-left: 200px;
 }
-
+.dua    {
+    margin: 20px;
+            background: #91BB62;
+}
 
 
 .table {
     font-family: sans-serif;
     color: #444;
     border-collapse: collapse;
+    margin-left: 30px;
+    width: 1130px;
+
 
 }
+.kegiatan{
+    text-align: left;
+}
+.no{
+        border-radius: 10px 0px 0px 0px;
+}
+.on{
+    border-radius: 0px 10px 0px 0px;
+}
     .table tr th{
-        background: #35A9DB;
+
+        background: #197aa3;
         color: #ffff;
         font-weight: normal;
     }
@@ -52,3 +134,17 @@
     .table tr:nth-child(even){
         background-color: #f2f2f2;
     }
+
+.kotak_besar{
+                position: absolute;
+                width: 1190px;
+                height: 500px;
+                left: 0px;
+                top: 130px;
+                background: #FFFFFF;
+                box-shadow:  1px 4px 4px rgba(0, 0, 0, 0.04);
+                border-radius: 15px;
+}
+.g {
+    top: 5px;
+}

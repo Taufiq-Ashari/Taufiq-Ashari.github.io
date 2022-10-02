@@ -2,56 +2,58 @@
     <head>
         <title> portofolio </title>
         <link rel="stylesheet" type="text/css" href="portofolio.css">
-        <style>table, th, td{border: 1px px solid;</style>
+        <style>table, th, td{border: 1px px solid}</style>
     </head>
     <body>
+        <div class="kotak_atas"></div>
+        <a class="portofolio">Portofolio Saya</a>
 
-        <h1> <center> Portofolio Saya</center></h1>
-        <form>
-            <p>
-            <p><h4>Nama organisasi:</h4></p>
-            <input type="text"nama="Nama" placeholder="enter your name">
-            <p><h4>Tahun:</h4></p>
-            <input type="text" nama="Nama" placeholder="enter your name">
-            
-<p></p>
-            <div>
-                <input class="masok" type="submit" value="kirim">
-                
-                <input class="masok1" type="reset" value="Reset">
-            </div>
+        <form class="kotak_luar">
+        <a class="nama_orga">Nama Kegiatan:</a>
+        <a class="nama_orga n">Tahun:</a>
+        <p>
+            <input class="kotak_sumit k" type="text"nama="Nama" placeholder="Nama Organisasi/Kegiatan">
+            <input class="kotak_sumit o" type="text" nama="Nama" placeholder="dari">
+            <input class="kotak_sumit t" type="text" nama="Nama" placeholder="sampai">
             </p>
-
+            <p>
+            <div>
+                <input class="masok satu" type="reset" value="Reset">
+                <input class="masok dua" type="submit" value="kirim">
+            </div>
+        </p>
+        <div class="kotak_besar">
+            <p class="nama_orga g">Table Saya</p>
             <table class="table">
                 <tr>
-                    <th>NO</th>
+                    <th class="no">NO</th>
                     <th>Nama organisasi/kegiatan</th>
-                    <th>Tahun</th>
+                    <th class="on">Tahun</th>
                 </tr>
 
                 <tr>
                       <td>1</td>
-                      <td>Badan Eksekutif Mahasiswa Fakultas (Anggota Departement IPTEK)</td>
+                      <td class="kegiatan">Badan Eksekutif Mahasiswa Fakultas (Anggota Departement IPTEK)</td>
                       <td>2019-2020</td>
 
 
                 </tr>
                     <tr>
                         <td>2</td>
-                        <td>Badan Eksekutif Mahasiswa (CO-Departement sistem Informasi)</td>
+                        <td class="kegiatan">Badan Eksekutif Mahasiswa (CO-Departement sistem Informasi)</td>
                         <td>2020-2021</td>
                     
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Freelance Desain</td>
+                        <td class="kegiatan">Freelance Desain</td>
                         <td>2019-2022</td>
                     
                     </tr>
 
             </table>
-
-            
-        </form>
+</div>
+<div>
+</div>
     </body>
 </html>
