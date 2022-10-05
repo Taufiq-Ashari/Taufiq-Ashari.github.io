@@ -1,6 +1,32 @@
 body{
     background-color: #FAFAFA;
 }
+.tombolee{
+    position: absolute;
+    top: -130px;
+    left: 1035px;
+}
+.tombole{
+    font-family: inter;
+    padding: 10px;
+    color: #2a93c0;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition:  .5s;
+    letter-spacing: 4px;
+    border: 2px solid #197aa3;
+    margin: auto;
+    border-radius: 3px;
+
+}
+.tombole:hover{
+    background: #197aa3;
+    color: #ffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #197aa3, 0 0 10px #197aa3;
+}
 .kotak_atas{
             position: absolute;
             background-color: #ffffff;
