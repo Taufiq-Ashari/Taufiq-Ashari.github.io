@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="app.js">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+    function actionToggle(){
+        var action = document.querySelector('.action');
+        action.classList.toggle('active')
+    }
+</script>
+<body>
+    <div class="action">
+        <span>+</span>
+        <ul>
+            <li class="fb"><img src="icon/facebook.png"></li>
+        </ul>
+        <ul>
+            <li class="gp"><img src="icon/google-plus.png"></li>
+        </ul>
+        <ul>
+            <li class="link"><img src="icon/linkedin.png"></li>
+        </ul>
+        <ul>
+            <li class="wa"><img src="icon/whatsapp.png"></li>
+        </ul>
+    </div><div class="action" onclick="actionToggle();"></div>
+</body>
+</html>            
+            

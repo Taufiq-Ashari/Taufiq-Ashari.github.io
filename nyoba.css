@@ -1,0 +1,293 @@
+
+div{
+    width: 1200px;
+    height: auto;
+    background-color:transparent;
+    margin: 20px auto;
+    padding-top: 0px;
+
+}
+.pajangan{
+                margin-inline: 180px;
+                top: 15.53%;
+                bottom: 67.92%;
+                width: 40px;
+                height: 40px;
+                background: #E89C58;
+                border-radius: 100%;
+                margin-top: 25px;
+}
+.pajangann{
+                position: relative;
+                left: 780px;
+                margin-inline: 180px;
+                top: -460px;
+                bottom: 67.92%;
+                width: 40px;
+                height: 40px;
+                background: #E89C58;
+                border-radius: 100%;
+                margin-top: 70px;
+}
+.rusakk{
+    margin-top: 470px;
+}
+.rusak{
+    margin-inline: -20px;
+    color: #512829;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+}
+
+.rusak1{
+    margin-inline: -20px;
+        color: #512829;
+        font-size: 48px;
+        font-weight: bold;
+        font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+        height: min-content;
+        text-align: center;
+        align-items: center;
+        white-space: nowrap;
+        flex-direction: column;
+        transform: matrix(0, 1, -1, 0, 0, 0);
+    }
+.paja{
+                right: 42.68%;
+                top: 15.53%;
+                bottom: 67.92%;
+                width: 200px;
+                height: 57px;
+
+                background: #91BB62;
+                box-shadow: 0px 4px 13px
+                rgba(0, 0, 0, 0.25);
+}
+.profil{
+        color: #fdebdf;
+            font-size: 32px;
+            font-weight: bold;
+            font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+            right: auto;
+            top: 5px;
+            margin-top: -700px;
+            width:150px;
+            height: min-content;
+            text-align: center;
+            align-items: center;
+            white-space: nowrap;
+            flex-direction: column;
+            margin-bottom: 100px;
+        }
+.fotoku{
+    width: auto;
+    height: 712px;
+    position: relative;
+    left: -50px;
+    margin-top: 50px;
+}
+.foto_seal{
+    margin-top: 25px;
+    width: 150px;
+    height: auto;
+}
+.img-circle{
+        margin-top: 100px;
+        border-radius: 50%;
+        height: 150px;
+        width: auto;
+}
+.judul{
+
+        height: 88px;
+        margin-top: 20px;
+        position:relative;
+        font-family: 'Collingar DEMO';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    
+        color: #461A1B;
+}
+.kotak     {
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    left: 0px;
+    top: 500px;
+    
+}
+
+.smp {
+            margin-top: -365px;
+
+}
+
+.smk{
+            margin-top: 125px;
+}
+
+.univ{
+            margin-top: 125px;
+
+}
+
+
+.daftar_sekolah{
+        position: relative;
+        top: -470px;
+        left: 240px;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+        width: min-content;
+        height: min-content;
+        text-align:right;
+        align-items: center;
+        white-space: nowrap;
+        flex-direction: column;
+        color: #000;
+ 
+        }
+.siuu{
+    margin-top: 100px;
+}
+.tahun{
+        position: relative;
+        top: -780px;
+        left: -250px;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+        text-align:right;
+}
+.tahun2{
+    margin-top:125px ;
+}
+.tahun3{
+    margin-top: 125px;
+}
+.daftar_1{
+            top: -1155px;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+            position: relative;
+            width: min-content;
+            height: min-content;
+            text-align:left;
+            align-items: center;
+            white-space: nowrap;
+            flex-direction: column;
+            color: #000;
+            left: 240px;
+}
+.excel{
+    margin-top: 81px;
+}
+.potosop{
+    margin-top: 81px;
+}
+.XD{
+    margin-top: 81px;
+}
+.border {
+    top: 400px;
+    left: -400;
+    position: relative;
+    width: 220px;
+    height: 206px;
+
+    background: #FDE4D4;
+    border-radius: 5px;
+    margin: 3px;
+    box-sizing: border-box;
+
+}
+
+.foto_lagi {
+    top: 7px;
+    position: relative;
+    width: 200px;
+    height: 188px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.tentang_saya {
+    position: relative;
+    width: auto;
+    height: 39px;
+    left: -150px;
+    top: 170px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #745354;
+}
+
+.kata-kata {
+    position: relative;
+    width: 662px;
+    height: 190px;
+    left: 352px;
+    top: 170px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+.batas_bawah {
+    top: 1564px;
+    position: absolute;
+    width: 100%;
+    height: 43px;
+    left: -13px;
+
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #FEF6ED 0%, #FDEBDF 100%);
+    border-radius: 0px;
+}
+.tombolee{
+    top: -1370px;
+    position: relative;
+    left: 980px;
+}
+.tombole{
+    position: relative;
+    font-family: inter;
+    padding: 10px;
+    color: #2a93c0;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition:  .5s;
+    letter-spacing: 4px;
+    border: 2px solid #197aa3;
+    margin: auto;
+    border-radius: 3px;
+
+}
+.tombole:hover{
+    background: #197aa3;
+    color: #ffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #197aa3, 0 0 10px #197aa3;
+}
